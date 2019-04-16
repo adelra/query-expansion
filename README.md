@@ -10,3 +10,7 @@ Query expansion uses several processes from Natural Language Processing. In most
 After preprocessing of the texts from the book, and cleaning the data I dumped the words and their synonyms into a python pickle file. Python pickle is a module for serializing and de-serializing python objects. With pickle python objects will be converted into byte streams. Then I wrote a module to load this pickle file and get the input query. It will then process the input query and find the synonyms and show the nearest queries in the sense of meaning.
 
 ![Alt text](Picture.png?raw=true "diagram")
+
+*Paper:*
+
+https://arxiv.org/pdf/1811.00854.pdf
